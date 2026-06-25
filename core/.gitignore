@@ -1,0 +1,24 @@
+# Environment / secrets
+.env
+*.env
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Data stores (don't commit the DB or vector index — they're generated)
+data/
+chroma_db/
+*.db
+*.sqlite
+
+# Streamlit cache
+.streamlit/
+
+# OS
+.DS_Store
+Thumbs.db
